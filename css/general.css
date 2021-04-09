@@ -4,7 +4,7 @@
 /*Les principaux style*/
 body
 {
-    background-color: #F2F2F2;
+    background-color: #FFFFFF;
     font-family: 'Raleway', Calibri, sans-serif;
     font-size: 14px;  
     font-weight: 400;  
@@ -19,61 +19,58 @@ body
 
 /*header*/
 
-.logo_nav
-{
+.logo_nav{
     display: flex;
     justify-content: space-between;
     flex-direction: row;
 }
-
-.logo
-{
+.logo{
     background: url('../images/logo/Reservia.svg') no-repeat;
     height: 45px;
     width: 97px;
-        
-  }
+       
+}
     
-a
-{
+a{
     text-decoration: none ;           
 
 }
-.logo_nav nav ul 
-{
+.logo_nav nav ul{
     list-style-type: none;
     height: 50px;
     margin: 0;
 
 }
-.logo_nav nav ul li
-{
+.logo_nav nav ul li{
     float: left;
     padding: 16px;
-
 }
 
-.actived 
-{
+.actived{
     
     border-top:2px solid #0065FC;
 }
-.actived a
-{
+.actived a{
     color:#0065FC;
     
 }
 
-h3
-{
-    font-weight:600 ;
-    
+h3{
+    font-weight:600 ; 
 }
 
-.titre-page
-{
+.titre-page{
     line-height:1.3;
 }
+
+.titre-page h3{
+    margin-bottom: 0;
+}
+.titre-page p{
+   margin-top: 0;
+}
+/*Debut style page Hebergements*/
+
 
 
 .botton{
@@ -81,50 +78,30 @@ h3
     color:#DEEBFF;
     border-top-right-radius:10px;
     border-bottom-right-radius:10px;
+    border:0;
 }
 
-
-.titre-page h3
-{
-    border :1px solid red ;
-    margin-bottom: 0;
+.bar-recherches{
+    display: flex;
+    width: 350px;
+    border-radius: 12px;
+    border: 1px solid #ddd;
 }
-.titre-page p
-{
-    border :1px solid red ;
-    margin-top: 0;
-}
-
-    
+   
 .icone-recherche
 {
-    background: url('../images/icones/map-marker-alt-solid.svg');
+    background: #ddd;
+    border-top-left-radius: 12px;
+    border-bottom-left-radius: 12px;
+    height: 32px;
+    width: 32px;    
+    display: flex;    /*centrer l'icone*/
+    justify-content:center; /*centrer l'icone*/
+    align-items: center; /*centrer l'icone*/
+}
+.input-recherches{
+    flex:1;
+    border:0;
 }
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-/*style  a supprimer*/
-#containerx
-{
-    background-color:rgb(9, 255, 0);
-}
-.headx
-{
-    background-color:grey;
-}
-.test2
-{
-    background-color: bisque;
-}

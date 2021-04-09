@@ -1,0 +1,106 @@
+
+/*style Hotel soleil*/
+
+.standart-image img{
+    border-top-left-radius: 12px;
+    border-bottom-left-radius: 12px;
+    
+    object-fit: cover;
+}
+.stars-soleil i{
+    color:#0065FC;
+}
+.populaire-bloc{
+    border-top-left-radius: 12px;
+    border-bottom-left-radius: 12px;
+    border-top-right-radius: 12px;
+    border-bottom-right-radius: 12px;
+    border:3px solid #ffffff;
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 20px;
+    font-size: 12px;
+   }
+.bloc-titre-notation{
+    background:#ffffff;
+    padding: 10px;
+    padding-left: 15px;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+}
+
+
+/*
+.nom-hotel{
+    padding: 15px;
+}
+.cout-hotel{
+    margin-left: 15px;
+}
+.stars-soleil{
+    margin-left: 15px;
+}
+*/
+
+
+
+
+/*Ppour positionner les etoiles il ya deux methodes
+1 Methode :position absolue et relative*/
+/*
+.stars-soleil {
+    position: absolute;
+    bottom: 10px;
+    left: 15px;
+}
+.bloc-titre-notation{
+    position: relative;
+}
+*/
+
+
+
+
+
+/*style Au coeur de l'eau*/
+
+.image-eau img{
+    border-top-left-radius: 12px;
+    border-bottom-left-radius: 12px;
+    border:3px solid #ffffff;
+    object-fit: cover;
+}
+
+
+/*style Hotel bleu blanc*/
+.image-bleu-blanc img{
+    border-top-left-radius: 12px;
+    border-bottom-left-radius: 12px;
+    border:3px solid #ffffff;
+    object-fit: cover;
+
+}
+.soleil-mer-bleu{
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+/*style  a supprimer*/
+
+#heberg-populaires{
+    width: 30%;
+    margin-left: 30px;
+    border-radius: 12px;
+    background-color: #ddd;
+    padding: 30px;
+}
+
+.titre{
+    margin-top: 0;
+    
+}

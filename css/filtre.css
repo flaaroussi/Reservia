@@ -1,0 +1,48 @@
+.bar-filtres{
+    display: flex;
+    margin-top: 20px;
+    margin-bottom: 30px;
+   
+}
+
+
+.fas fa-child{
+    border :1px solid red;
+}
+/* style icones*/
+
+.filtre-tag{
+    border:1px solid #F2F2F2;
+    background: #ffffff;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    margin-right: 30px;
+    
+    
+}
+.filtres-titre{
+    margin-right: 30px;
+    display: flex;
+    align-items :center ;
+}
+
+/*style icone*/
+
+.filtre-tag i{
+    color: #0065fc;
+}
+.icone{
+    background-color:#DEEBFF;
+    height: 40px;
+    width: 40px;
+    border-radius: 20px;
+    display: flex;
+    align-items :center ;
+    justify-content: center;
+}
+.texte{
+    padding-left: 10px;
+    padding-right: 20px;
+    font-weight: bold;
+}

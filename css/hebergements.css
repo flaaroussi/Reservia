@@ -1,0 +1,124 @@
+/*Hebergemet a marseille*/
+.container-hebergement{
+    display:flex;
+    margin-top: 20px;
+}
+#heberg-marseille{
+    background-color: #ddd;
+    flex:1;
+    border-radius: 12px;
+    padding:30px;
+ }
+ #heberg-marseille h3{
+    margin-top: 0;
+ }
+ 
+/*Row 1*/
+        /*Style Cannebière port mouette*/
+
+.bloc-text1{
+    font-weight:bold;
+    padding-left: 15px;
+}
+
+.bloc-text1,
+.bloc-text2,
+.hebergement-stars,
+.stars-amina,
+.stars-port{
+    padding-left: 15px;
+}
+
+
+
+.cann-port-mouette{
+    display: flex;
+    justify-content: space-between;
+    }
+        /*Style Auberge cannebière*/
+
+        
+.style-standart-hotel{
+    background: #FFFFFF;
+    border-radius: 12px;
+    font-size: 12px;
+}
+
+.image-cannebiere img
+{
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+    object-fit: cover;
+    border:3px solid #ffffff
+    }
+
+/*Style hotel du port*/
+.stars-port i{
+    color:#0065FC;
+}
+
+.image-port img{
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+    object-fit: cover;
+    border:3px solid #ffffff;
+}
+
+/*Style hotel les mouettes*/
+
+.image-mouette img{
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+    object-fit: cover;
+    border:3px solid #ffffff;
+}
+
+/*Row2*/
+
+/*Style mer panier amina*/
+
+
+.mer-panier-amina{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+
+/*Style hotel de la mer*/
+
+.image-mer img{
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+    border:3px solid #ffffff;
+    object-fit: cover;
+}
+
+/*Style auberge le panier*/
+    
+
+.image-panier img{
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+    border:3px solid #ffffff;
+    object-fit: cover;
+}
+
+/*Style Hotel chez amina*/
+
+.image-amina img{
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+    border:3px solid #ffffff;
+    object-fit: cover;
+}
+.stars-amina i{
+    color:#0065FC;
+}
+
+.afficher{
+    font-weight:bold ;
+    margin-top: 20px;
+}
+
+
