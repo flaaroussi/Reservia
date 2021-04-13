@@ -1,20 +1,38 @@
 
+*,
+*::before,
+*::after{
+    box-sizing: border-box;
+}
+
+
+
 /*Les couleurs de la charte sont le bleu #0065FC, et sa version plus claire #DEEBFF ainsi que le gris pour le fond #F2F2F2*/
 
 /*Les principaux style*/
-body
-{
+body{
     background-color: #FFFFFF;
     font-family: 'Raleway', Calibri, sans-serif;
     font-size: 14px;  
     font-weight: 400;  
     margin: 0;
     padding: 0;
+    
 }
- #container
-{
-    width: 80%;
+.fa-star {
+    color:#0065FC;
+}
+.fa-star-diff{
+    color:rgba(128, 128, 128, 0.5);
+}
+.euro{
+    font-weight: bold;
+}
+
+#container{             
+   
     margin: auto;
+    
 }
 
 /*header*/
@@ -28,24 +46,20 @@ body
     background: url('../images/logo/Reservia.svg') no-repeat;
     height: 45px;
     width: 97px;
-       
 }
     
 a{
     text-decoration: none ;           
-
 }
 .logo_nav nav ul{
     list-style-type: none;
     height: 50px;
     margin: 0;
-
 }
 .logo_nav nav ul li{
     float: left;
     padding: 16px;
 }
-
 .actived{
     
     border-top:2px solid #0065FC;
@@ -58,11 +72,9 @@ a{
 h3{
     font-weight:600 ; 
 }
-
 .titre-page{
     line-height:1.3;
 }
-
 .titre-page h3{
     margin-bottom: 0;
 }
@@ -70,15 +82,17 @@ h3{
    margin-top: 0;
 }
 /*Debut style page Hebergements*/
-
-
-
-.botton{
+.botton-rechercher{
     background:#0065FC;
     color:#DEEBFF;
     border-top-right-radius:10px;
     border-bottom-right-radius:10px;
     border:0;
+    font-weight: bold;
+}
+
+.botton-rechercher i{
+    display: none;
 }
 
 .bar-recherches{
@@ -87,9 +101,7 @@ h3{
     border-radius: 12px;
     border: 1px solid #ddd;
 }
-   
-.icone-recherche
-{
+.icone-recherche{
     background: #ddd;
     border-top-left-radius: 12px;
     border-bottom-left-radius: 12px;
@@ -102,6 +114,118 @@ h3{
 .input-recherches{
     flex:1;
     border:0;
+    padding-left: 10px;
+    font-weight: bold;
 }
 
+/*plus de 500 infos*/
+.infos{
+    display: flex;
+    flex-direction: row;
+}
+.icone-infos{
+    border-radius: 12px;
+    display: flex;    /*centrer l'icone*/
+    justify-content:center; /*centrer l'icone*/
+    align-items: center; /*centrer l'icone*/
+    height: 32px;
+    width: 32px;  
+    color:#0065FC;
+}
+
+
+/*Responsive design :max .......*/
+
+/*All descktop */
+@media all and (min-width: 1024px){
+    #container{
+        min-width: 1024px;
+        width: 80%;
+        
+    }
+
+
+ }
+
+ /*Responsive design tablette*/
+@media all and (min-width: 480px) and (max-width: 1024px){
+    #container{
+      
+        background-color: blanchedalmond;
+    }
+
+
+}
+
+
+/*smart phone*/
+/*barre de recherche*/
+@media all and (max-width: 480px){
+
+    
+    .botton-rechercher{
+        border-radius:10px;
+    }
+
+    .botton-rechercher span{
+        display: none;
+    }
+    .botton-rechercher i{
+        display: block;
+    }
+    /*Les plus populaire*/
+    .container-hebergement{
+        flex-direction: column-reverse;
+    }
+
+    #heberg-populaires{
+        width: 100%;
+    }
+
+
+
+    /*Hebergement marseille*/
+    .cann-port-mouette{
+        flex-direction: column;
+    }
+    .mer-panier-amina{
+        flex-direction: column;
+    }
+
+    /*Activité marseille*/
+      
+    .container-activite{
+        flex-direction: column !important;
+    }
+    .container-bloc{
+        width: 100% !important;
+        margin-left: 0px !important;
+        margin-bottom: 30px;
+        height: 230px !important;
+    }
+    .ms{
+        height: 490px !important;
+    }
+    .activite-image2,
+    .activite-image1{
+        height: 200px !important;
+
+    }
+    
+
+    /*Footer*/
+
+    .style-footer{
+
+        flex-direction: column;
+
+    }
+
+
+
+
+
+}
+    
+    
 

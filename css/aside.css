@@ -7,9 +7,7 @@
     
     object-fit: cover;
 }
-.stars-soleil i{
-    color:#0065FC;
-}
+
 .populaire-bloc{
     border-top-left-radius: 12px;
     border-bottom-left-radius: 12px;
@@ -20,6 +18,7 @@
     flex-direction: row;
     margin-bottom: 20px;
     font-size: 12px;
+    min-width:280px;
    }
 .bloc-titre-notation{
     background:#ffffff;
@@ -31,19 +30,12 @@
     justify-content: space-between;
 
 }
+.bloc-titre-notation .bloc-text1,
+.bloc-titre-notation .bloc-text2
+{
+    padding-left: 0;
 
-
-/*
-.nom-hotel{
-    padding: 15px;
 }
-.cout-hotel{
-    margin-left: 15px;
-}
-.stars-soleil{
-    margin-left: 15px;
-}
-*/
 
 
 
@@ -103,4 +95,9 @@
 .titre{
     margin-top: 0;
     
+}
+.titre-charte{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
 }

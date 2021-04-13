@@ -1,0 +1,33 @@
+
+
+   
+    
+
+
+.style-ul{
+    padding-left: 0;
+    list-style-type: none;
+   
+}
+   
+
+
+.style-footer{
+    padding-left: 0;
+    background: #ddd;
+    display: flex;
+    justify-content: space-between;
+    padding: 30px;
+    margin-top: 30px;
+}
+
+
+.titre{
+    font-weight: bold;
+}
+
+.style-ul li{
+    
+    padding-bottom: 10px;
+}
+

@@ -19,12 +19,12 @@
     align-items: center;
     margin-right: 30px;
     
-    
 }
 .filtres-titre{
     margin-right: 30px;
     display: flex;
     align-items :center ;
+    font-weight: bold;
 }
 
 /*style icone*/
@@ -46,3 +46,25 @@
     padding-right: 20px;
     font-weight: bold;
 }
+
+
+/*Responsive design :max .......*/
+/*smart phone*/
+@media (min-width: 320px) and (max-width: 480px){
+    body{
+        
+    }
+    .bar-filtres{
+        flex-direction: column;
+    }
+
+    .filtre-tag{
+        margin-top: 10px;
+
+    }
+
+    
+
+
+    
+    }
