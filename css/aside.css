@@ -1,13 +1,6 @@
 
 /*style Hotel soleil*/
 
-.standart-image img{
-    border-top-left-radius: 12px;
-    border-bottom-left-radius: 12px;
-    
-    object-fit: cover;
-}
-
 .populaire-bloc{
     border-top-left-radius: 12px;
     border-bottom-left-radius: 12px;
@@ -18,8 +11,17 @@
     flex-direction: row;
     margin-bottom: 20px;
     font-size: 12px;
-    min-width:280px;
    }
+
+
+.populaire-bloc img{
+    border-top-left-radius: 12px;
+    border-bottom-left-radius: 12px;
+    object-fit: cover;
+    width: 35%;
+    height: 100px;
+}
+
 .bloc-titre-notation{
     background:#ffffff;
     padding: 10px;
@@ -38,27 +40,6 @@
 }
 
 
-
-
-/*Ppour positionner les etoiles il ya deux methodes
-1 Methode :position absolue et relative*/
-/*
-.stars-soleil {
-    position: absolute;
-    bottom: 10px;
-    left: 15px;
-}
-.bloc-titre-notation{
-    position: relative;
-}
-*/
-
-
-
-
-
-/*style Au coeur de l'eau*/
-
 .image-eau img{
     border-top-left-radius: 12px;
     border-bottom-left-radius: 12px;
@@ -75,7 +56,7 @@
     object-fit: cover;
 
 }
-.soleil-mer-bleu{
+.container-populaire{
     display: flex;
     flex-direction: column;
 }

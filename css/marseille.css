@@ -14,9 +14,7 @@
     display: flex;
     flex-direction: column;
 }
-.image1-activite{
-    flex:1;
-}
+
 .activite-image1{
     width: 100%;
     height: 266px;
@@ -30,6 +28,7 @@
     padding-bottom: 8px;
     padding-top: 8px;
     font-size: 12px;
+    font-weight: bold;
 }
 .image2-activite img{
     border-top-left-radius: 12px;
@@ -44,23 +43,15 @@
 .container-activite{
     display: flex;
     flex-direction: row;
-    
     width: 100%;
 }
-
-
-   
 
 .container-bloc{
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     height: 300px;
-   
-   
 }
-
-    
 
 .container-bloc{
     width: 25%;

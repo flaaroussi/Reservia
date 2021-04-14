@@ -19,11 +19,48 @@
     flex-wrap: nowrap;
     padding-bottom: 10px;
     padding-top: 10px;
-
  }
  
 /*Row 1*/
-        /*Style Cannebière port mouette*/
+        /*Style Cannebière, port&mouette*/
+        
+.container-hebergement-row{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+.espace-top30{
+    margin-top: 30px;
+}
+.container-hebergement-child{
+    background: #FFFFFF;
+    border-radius: 12px;
+    font-size: 12px;
+}
+.container-hebergement-child{
+    width: 33%;
+    margin-left: 30px;
+}
+.container-hebergement-child:first-child{
+    margin-left: 0;
+}
+
+
+.style-image{
+    width: 100%;
+    height: 100px;
+}
+
+
+.hebergement-image img{
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+    object-fit: cover;
+    border:3px solid #ffffff
+}
+
+
+
 
 .bloc-text1{
     font-weight:bold;
@@ -33,83 +70,13 @@
     padding-top: 10px;
 }
 
-
 .bloc-text1,
 .bloc-text2,
 .hebergement-stars,
 .stars-port{
     padding-left: 15px;
 }
-.cann-port-mouette{
-    display: flex;
-    justify-content: space-between;
-    }
-        /*Style Auberge cannebière*/
-        
-.style-standart-hotel{
-    background: #FFFFFF;
-    border-radius: 12px;
-    font-size: 12px;
-}
-.image-cannebiere img
-{
-    border-top-left-radius: 12px;
-    border-top-right-radius: 12px;
-    object-fit: cover;
-    border:3px solid #ffffff
-    }
 
-/*Style hotel du port*/
-.image-port img{
-    border-top-left-radius: 12px;
-    border-top-right-radius: 12px;
-    object-fit: cover;
-    border:3px solid #ffffff;
-}
-
-/*Style hotel les mouettes*/
-
-.image-mouette img{
-    border-top-left-radius: 12px;
-    border-top-right-radius: 12px;
-    object-fit: cover;
-    border:3px solid #ffffff;
-}
-
-/*Row2*/
-
-/*Style mer panier amina*/
-.mer-panier-amina{
-    display: flex;
-    justify-content: space-between;
-    margin-top: 20px;
-}
-
-/*Style hotel de la mer*/
-
-.image-mer img{
-    border-top-left-radius: 12px;
-    border-top-right-radius: 12px;
-    border:3px solid #ffffff;
-    object-fit: cover;
-}
-
-/*Style auberge le panier*/
- .image-panier img{
-    border-top-left-radius: 12px;
-    border-top-right-radius: 12px;
-    border:3px solid #ffffff;
-    object-fit: cover;
-}
-
-/*Style Hotel chez amina*/
-
-.image-amina img{
-    border-top-left-radius: 12px;
-    border-top-right-radius: 12px;
-    border:3px solid #ffffff;
-    object-fit: cover;
-}
 
 .afficher{
     font-weight:bold ;

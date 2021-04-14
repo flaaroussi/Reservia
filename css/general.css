@@ -45,16 +45,18 @@ body{
 .logo{
     background: url('../images/logo/Reservia.svg') no-repeat;
     height: 45px;
-    width: 97px;
+    width: 110px;
 }
     
 a{
-    text-decoration: none ;           
+    text-decoration: none ; 
+    color: #000;          
 }
 .logo_nav nav ul{
     list-style-type: none;
     height: 50px;
     margin: 0;
+    padding: 0;
 }
 .logo_nav nav ul li{
     float: left;
@@ -67,6 +69,10 @@ a{
 .actived a{
     color:#0065FC;
     
+}
+.lien-inscrire a{
+    color:#0065FC;
+    font-weight: bold;
 }
 
 h3{
@@ -122,14 +128,23 @@ h3{
 .infos{
     display: flex;
     flex-direction: row;
+    border-radius: 12px;
+    align-items: center; /*centrer l'icone*/
+    
+
 }
 .icone-infos{
-    border-radius: 12px;
+    width: 32px;
+    height: 32px;
+    border: 1px solid #f2f2f2;
     display: flex;    /*centrer l'icone*/
     justify-content:center; /*centrer l'icone*/
     align-items: center; /*centrer l'icone*/
-    height: 32px;
-    width: 32px;  
+    border-radius: 50px;
+    margin-right: 10px;
+
+}
+.fa-info{
     color:#0065FC;
 }
 
@@ -149,8 +164,7 @@ h3{
 
  /*Responsive design tablette*/
 @media all and (min-width: 480px) and (max-width: 1024px){
-    #container{
-      
+    #container{     
         background-color: blanchedalmond;
     }
 
@@ -161,8 +175,36 @@ h3{
 /*smart phone*/
 /*barre de recherche*/
 @media all and (max-width: 480px){
+    #container{
+        width: 94%;
+    }
 
-    
+    /*Logo & nav*/
+
+    .logo_nav{
+        flex-direction: column;
+        
+    }
+    .actived{
+        border-bottom:2px solid #0065FC;
+        border-top: 0;
+        width: 50%;
+        text-align: center;
+    }
+
+    .non-actived{
+        border-bottom:2px solid #f2f2f2 ;
+        width: 50%;
+        text-align: center;
+    }
+     
+    .lien-inscrire{
+        position: absolute;
+        top: 0;
+        right: 0;
+    }
+
+    /*Rechercher*/
     .botton-rechercher{
         border-radius:10px;
     }
@@ -173,6 +215,20 @@ h3{
     .botton-rechercher i{
         display: block;
     }
+
+    /*Barre filtre*/
+    .bar-filtres{
+        flex-wrap: wrap;
+    
+    }
+
+    .filtre-tag{
+        margin-top: 10px;
+
+    }
+    .filtres-titre{
+        width: 400px;
+    }
     /*Les plus populaire*/
     .container-hebergement{
         flex-direction: column-reverse;
@@ -182,15 +238,27 @@ h3{
         width: 100%;
     }
 
-
-
     /*Hebergement marseille*/
-    .cann-port-mouette{
-        flex-direction: column;
+    .container-hebergement-row{
+        flex-direction: column !important;
     }
-    .mer-panier-amina{
-        flex-direction: column;
+    .container-hebergement-child{
+        width: 100% !important;
+        margin-left: 0px !important;
+        margin-bottom: 30px;
     }
+    .container-hebergement-child:last-child{
+        margin-bottom: 0 !important;
+    }
+    .container-hebergement-child:first-child{
+        margin-left: 0 !important;
+    }
+    
+    
+
+
+
+
 
     /*Activité marseille*/
       
@@ -211,7 +279,24 @@ h3{
         height: 200px !important;
 
     }
-    
+    /*Aside :les plus populaire*/
+
+    #heberg-populaires{
+        width: 100% !important;
+        margin-left: 0 !important;
+        margin-bottom: 30px;
+    }
+
+
+
+
+
+
+
+
+
+
+
 
     /*Footer*/
 
