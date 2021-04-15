@@ -13,12 +13,12 @@
 body{
     background-color: #FFFFFF;
     font-family: 'Raleway', Calibri, sans-serif;
-    font-size: 14px;  
+    font-size: 15px;  
     font-weight: 400;  
     margin: 0;
     padding: 0;
-    
 }
+
 .fa-star {
     color:#0065FC;
 }
@@ -34,6 +34,9 @@ body{
     margin: auto;
     
 }
+.box-shadow{
+    box-shadow: 2px 5px 10px rgba(0, 0, 0, 0.2);
+}
 
 /*header*/
 
@@ -43,9 +46,15 @@ body{
     flex-direction: row;
 }
 .logo{
-    background: url('../images/logo/Reservia.svg') no-repeat;
-    height: 45px;
+    height: 100px;
     width: 110px;
+    display: flex;
+    align-items: center;  
+    
+}
+img{
+    padding:0;
+    margin: 0;
 }
     
 a{
@@ -54,14 +63,19 @@ a{
 }
 .logo_nav nav ul{
     list-style-type: none;
-    height: 50px;
     margin: 0;
     padding: 0;
 }
 .logo_nav nav ul li{
     float: left;
-    padding: 16px;
+    padding: 40px;         /*avant 16px*/
+   
 }
+
+.logo_nav nav ul li:last-child{
+    padding-right: 0;
+}
+
 .actived{
     
     border-top:2px solid #0065FC;
@@ -75,17 +89,27 @@ a{
     font-weight: bold;
 }
 
-h3{
-    font-weight:600 ; 
+h2{
+    margin-bottom: 0;
+    margin-top: 0;
+    font-size: 21px;
 }
+
+h3{
+    font-weight: bold;
+    font-size: 17px;
+    margin-top: 0;
+}
+
+
 .titre-page{
     line-height:1.3;
 }
-.titre-page h3{
-    margin-bottom: 0;
-}
+
 .titre-page p{
-   margin-top: 0;
+   margin-top: 6px;
+   margin-bottom: 30px;
+
 }
 /*Debut style page Hebergements*/
 .botton-rechercher{
@@ -95,6 +119,8 @@ h3{
     border-bottom-right-radius:10px;
     border:0;
     font-weight: bold;
+    padding-left: 15px;
+    padding-right: 15px;
 }
 
 .botton-rechercher i{
@@ -111,8 +137,8 @@ h3{
     background: #ddd;
     border-top-left-radius: 12px;
     border-bottom-left-radius: 12px;
-    height: 32px;
-    width: 32px;    
+    height: 45px;
+    width: 45px;    
     display: flex;    /*centrer l'icone*/
     justify-content:center; /*centrer l'icone*/
     align-items: center; /*centrer l'icone*/
@@ -122,6 +148,9 @@ h3{
     border:0;
     padding-left: 10px;
     font-weight: bold;
+}
+::placeholder{
+    font-size: 1.2em;
 }
 
 /*plus de 500 infos*/
@@ -136,7 +165,7 @@ h3{
 .icone-infos{
     width: 32px;
     height: 32px;
-    border: 1px solid #f2f2f2;
+    border: 1px solid #cdcdcd;
     display: flex;    /*centrer l'icone*/
     justify-content:center; /*centrer l'icone*/
     align-items: center; /*centrer l'icone*/
@@ -151,7 +180,7 @@ h3{
 
 /*Responsive design :max .......*/
 
-/*All descktop */
+                            /*Resonsive design:All descktop */
 @media all and (min-width: 1024px){
     #container{
         min-width: 1024px;
@@ -162,17 +191,35 @@ h3{
 
  }
 
- /*Responsive design tablette*/
+    
+
+                             /*Responsive design:tablette*/
 @media all and (min-width: 480px) and (max-width: 1024px){
+
     #container{     
         background-color: blanchedalmond;
+        width: 95%;
+    }
+
+    .container-hebergement{
+        flex-direction: column;    
+
+    }
+    #heberg-marseille{
+        width: 100%;
+    }
+    #heberg-populaires{
+        width: 100% !important;
+        flex-direction: row !important;
+        margin-left: 0 !important;
+        margin-top: 30px;
     }
 
 
 }
 
 
-/*smart phone*/
+                                /*Responsive design:smart phone*/
 /*barre de recherche*/
 @media all and (max-width: 480px){
     #container{
@@ -199,14 +246,25 @@ h3{
     }
      
     .lien-inscrire{
+        height: 100px !important;
+        padding-top: 40px !important;
+        padding-bottom: 40px !important;
         position: absolute;
         top: 0;
         right: 0;
     }
-
+    
+    .logo_nav nav ul li{
+        height: 40px;
+        padding-top: 10px;
+        padding-bottom: 0px;
+        margin-bottom: 10px;
+    }
+    
     /*Rechercher*/
     .botton-rechercher{
         border-radius:10px;
+        height: 45px;
     }
 
     .botton-rechercher span{
@@ -219,21 +277,18 @@ h3{
     /*Barre filtre*/
     .bar-filtres{
         flex-wrap: wrap;
-    
     }
-
     .filtre-tag{
         margin-top: 10px;
-
     }
     .filtres-titre{
         width: 400px;
     }
+
     /*Les plus populaire*/
     .container-hebergement{
         flex-direction: column-reverse;
     }
-
     #heberg-populaires{
         width: 100%;
     }
@@ -254,14 +309,7 @@ h3{
         margin-left: 0 !important;
     }
     
-    
-
-
-
-
-
     /*Activité marseille*/
-      
     .container-activite{
         flex-direction: column !important;
     }
@@ -287,23 +335,12 @@ h3{
         margin-bottom: 30px;
     }
 
-
-
-
-
-
-
-
-
-
-
-
     /*Footer*/
 
     .style-footer{
-
         flex-direction: column;
-
+        width: 95% !important;
+       
     }
 
 

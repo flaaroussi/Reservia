@@ -7,6 +7,7 @@
     border-top-right-radius: 12px;
     border-bottom-right-radius: 12px;
     border:3px solid #ffffff;
+    background: #ffffff;
     display: flex;
     flex-direction: row;
     margin-bottom: 20px;
@@ -62,21 +63,14 @@
 }
 
 
-
-/*style  a supprimer*/
-
 #heberg-populaires{
     width: 30%;
     margin-left: 30px;
     border-radius: 12px;
-    background-color: #ddd;
+    background-color: #f2f2f2;
     padding: 30px;
 }
 
-.titre{
-    margin-top: 0;
-    
-}
 .titre-charte{
     display: flex;
     flex-direction: row;

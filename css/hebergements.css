@@ -4,14 +4,19 @@
     margin-top: 20px;
 }
 #heberg-marseille{
-    background-color: #ddd;
+    background-color: #f2f2f2;
     flex:1;
     border-radius: 12px;
     padding:30px;
  }
+
+ /*
  #heberg-marseille h3{
     margin-top: 0;
  }
+ */
+ 
+
  /*style des stars pour eviter le retour a la ligne*/
 
  .hebergement-stars{
@@ -45,12 +50,10 @@
     margin-left: 0;
 }
 
-
 .style-image{
     width: 100%;
     height: 100px;
 }
-
 
 .hebergement-image img{
     border-top-left-radius: 12px;
@@ -58,9 +61,6 @@
     object-fit: cover;
     border:3px solid #ffffff
 }
-
-
-
 
 .bloc-text1{
     font-weight:bold;
@@ -77,10 +77,9 @@
     padding-left: 15px;
 }
 
-
 .afficher{
     font-weight:bold ;
-    margin-top: 20px;
+    margin-top: 30px;
 }
 
 
