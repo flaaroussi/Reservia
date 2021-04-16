@@ -10,7 +10,7 @@
     background: #ffffff;
     display: flex;
     flex-direction: row;
-    margin-bottom: 20px;
+    margin-bottom: 30px;
     font-size: 12px;
    }
 
@@ -20,13 +20,14 @@
     border-bottom-left-radius: 12px;
     object-fit: cover;
     width: 35%;
-    height: 100px;
+    height: 120px;
 }
 
 .bloc-titre-notation{
     background:#ffffff;
     padding: 10px;
-    padding-left: 15px;
+    padding-left: 20px;
+    padding-right: 20px;
     flex: 1;
     display: flex;
     flex-direction: column;

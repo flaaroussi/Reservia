@@ -234,12 +234,13 @@ h3{
         margin-left: 0 !important;
         margin-top: 30px;
     }
+    /*Activité marseille*/
+   
 
     /*Footer*/
     .style-footer{
         width: 95% !important;
-        
-        
+        flex-wrap: wrap;
     }
 }
 
@@ -336,10 +337,15 @@ h3{
         width: 100% !important;
         margin-left: 0px !important;
         margin-bottom: 30px;
-        height: 230px !important;
+    }
+    .container-bloc:last-child{
+        margin-bottom:0
+    }
+    .activite-mobile .style-image-text:first-child{
+        margin-bottom: 30px; 
     }
     .activite-mobile{
-        height: 490px !important;
+        min-height: 490px !important;
     }
     .activite-image2,
     .activite-image1{

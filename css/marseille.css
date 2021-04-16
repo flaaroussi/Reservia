@@ -37,7 +37,7 @@
 }
 
 #activite-marseille{
-    margin-top: 30px;
+    margin-top: 40px;
 }
 
 .container-activite{
@@ -50,7 +50,6 @@
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    min-height: 305px;
 }
 
 .container-bloc{

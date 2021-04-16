@@ -12,7 +12,7 @@
 /* style icones*/
 
 .filtre-tag{
-    border:1px solid #F2F2F2;
+    border:1px solid #ddd;
     background: #ffffff;
     border-radius: 20px;
     display: flex;
@@ -42,7 +42,7 @@
     justify-content: center;
 }
 .texte{
-    padding-left: 15px;
+    padding-left: 17px;
     padding-right: 25px;
     font-weight: bold;
 }
