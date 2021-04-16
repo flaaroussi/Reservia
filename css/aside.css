@@ -76,3 +76,7 @@
     flex-direction: row;
     justify-content: space-between;
 }
+.bloc-stars{
+    display: flex;
+    flex-wrap: nowrap;
+}
