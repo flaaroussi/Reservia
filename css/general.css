@@ -169,7 +169,7 @@ h3{
     display: flex;    /*centrer l'icone*/
     justify-content:center; /*centrer l'icone*/
     align-items: center; /*centrer l'icone*/
-    border-radius: 50px;
+    border-radius: 50%;
     margin-right: 10px;
 
 }
@@ -206,6 +206,10 @@ h3{
         flex-direction: column;    
 
     }
+    .logo_nav nav ul li{
+        padding-left: 20px;
+        padding-right: 20px;
+    }
 
     /*Barre filtre*/
 
@@ -217,7 +221,9 @@ h3{
         margin-top: 10px;
         margin-right: 20px !important;
     }
-
+    .filtres-titre{
+        width: 600px;
+    }
 
     #heberg-marseille{
         width: 100%;
@@ -332,7 +338,7 @@ h3{
         margin-bottom: 30px;
         height: 230px !important;
     }
-    .ms{
+    .activite-mobile{
         height: 490px !important;
     }
     .activite-image2,

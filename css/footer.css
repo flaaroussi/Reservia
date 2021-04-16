@@ -2,7 +2,6 @@
 footer{
     background: #f2f2f2;
     margin-top: 30px;
-    
 }
 
 .style-ul{
@@ -23,6 +22,7 @@ footer{
 .titre-footer{
     font-weight: bold;
     margin-top: 0;
+    margin-bottom: 20px;
 }
 
 .style-ul li{
