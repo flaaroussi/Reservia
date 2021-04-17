@@ -5,11 +5,14 @@
     box-sizing: border-box;
 }
 
+/**
+    Les couleurs de la charte sont le bleu #0065FC,
+    et sa version plus claire #DEEBFF ainsi que le gris pour le fond #F2F2F2
 
+ */
 
-/*Les couleurs de la charte sont le bleu #0065FC, et sa version plus claire #DEEBFF ainsi que le gris pour le fond #F2F2F2*/
+/** Les principaux style */
 
-/*Les principaux style*/
 body{
     background-color: #FFFFFF;
     font-family: 'Raleway', Calibri, sans-serif;
@@ -38,7 +41,7 @@ body{
     box-shadow: 2px 5px 10px rgba(0, 0, 0, 0.2);
 }
 
-/*header*/
+/** header */
 
 .logo_nav{
     display: flex;
@@ -68,7 +71,7 @@ a{
 }
 .logo_nav nav ul li{
     float: left;
-    padding: 40px;         /*avant 16px*/
+    padding: 40px;        
    
 }
 
@@ -111,7 +114,7 @@ h3{
    margin-bottom: 30px;
 
 }
-/*Debut style page Hebergements*/
+/** Debut style page Hebergements */
 .botton-rechercher{
     background:#0065FC;
     color:#DEEBFF;
@@ -153,7 +156,7 @@ h3{
     font-size: 1.2em;
 }
 
-/*plus de 500 infos*/
+/** plus de 500 infos */
 .infos{
     display: flex;
     flex-direction: row;
@@ -178,26 +181,31 @@ h3{
 }
 
 
-/*Responsive design :max .......*/
 
-                            /*Resonsive design:All descktop */
-@media all and (min-width: 1024px){
-    #container{
-        min-width: 1024px;
-        width: 80%;
-        
+/** 
+   ############################################################################
+        Responsive design:All descktop 
+   ##########################################################################
+ */
+
+    @media all and (min-width: 1024px){
+        #container{
+            min-width: 1024px;
+            width: 80%;        
+        }
     }
- }
+
+ /** ######################################################################*/
  
 
-                             /*Responsive design:tablette*/
+                             /** Responsive design:tablette */
 @media all and (min-width: 480px) and (max-width: 1024px){
 
     #container{     
         width: 95%;
     }
 
-    /*Logo & nav*/
+    /** Logo & nav */
     .lien-inscrire{
         margin-right: 5px;
     }
@@ -211,7 +219,7 @@ h3{
         padding-right: 20px;
     }
 
-    /*Barre filtre*/
+    /** Barre filtre */
 
     .bar-filtres{
         flex-wrap: wrap;
@@ -235,10 +243,10 @@ h3{
         margin-left: 0 !important;
         margin-top: 30px;
     }
-    /*Activité marseille*/
+    /** Activité marseille */
    
 
-    /*Footer*/
+    /** Footer */
     .style-footer{
         width: 95% !important;
         flex-wrap: wrap;
