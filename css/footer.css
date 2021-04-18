@@ -1,7 +1,10 @@
 
 footer{
     background: #f2f2f2;
+    margin: auto;
     margin-top: 40px;
+    width: 84%;
+    min-width: 1024px;
 }
 
 .style-ul{
@@ -10,13 +13,12 @@ footer{
 }
    
 .style-footer{
-   
     display: flex;
     justify-content: space-between;
     width: 80%;
-    margin:auto;
     padding: 30px;
     padding-left: 0;
+    margin-left: 2%;
 }
 
 .titre-footer{

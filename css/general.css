@@ -128,7 +128,7 @@ h3{
 
 .bar-recherches{
     display: flex;
-    width: 350px;
+    width: 45%;
     border-radius: 12px;
     border: 1px solid #ddd;
 }
@@ -137,7 +137,7 @@ h3{
     border-top-left-radius: 12px;
     border-bottom-left-radius: 12px;
     height: 45px;
-    width: 45px;    
+    min-width:45px;    
     display: flex;    /*centrer l'icone*/
     justify-content:center; /*centrer l'icone*/
     align-items: center; /*centrer l'icone*/
@@ -147,6 +147,7 @@ h3{
     border:0;
     padding-left: 10px;
     font-weight: bold;
+    min-width:0;              /*permet de retrécir la taille d'un input jusqu'a zéro */ 
 }
 ::placeholder{
     font-size: 1.2em;
@@ -178,20 +179,20 @@ h3{
    ##########################################################################
  */
 
-    @media all and (min-width: 1024px){
+    @media all and (min-width: 1024px) and (max-width:1440px){
         #container{
-            min-width: 1024px;
-            width: 80%;        
+            max-width: 1440px;
+            width: 80%; 
         }
     }
  
  /** 
    ############################################################################
-        Responsive design:tablette min-width: 480px and max-width: 1024px
+        Responsive design:tablette min-width: 485px and max-width: 1024px
    ##########################################################################
  */
 
-@media all and (min-width: 480px) and (max-width: 1024px){
+@media all and (min-width: 485px) and (max-width: 1024px){
 
     #container{     
         width: 95%;
@@ -222,7 +223,7 @@ h3{
         margin-right: 20px !important;
     }
     .filtres-titre{
-        width: 600px;
+        width: 100%;
         
     }
 
@@ -247,12 +248,12 @@ h3{
 
 /** 
    ############################################################################
-        Responsive design:smart phone           max-width: 480px
+        Responsive design:smart phone           max-width: 485px
    ###########################################################################
  */
                                 
 
-@media all and (max-width: 480px){
+@media all and (max-width: 485px){
 
     #container{
         width: 94%;
@@ -288,6 +289,9 @@ h3{
     }
     
     /*Rechercher*/
+    .bar-recherches{
+        width: 80% !important;
+    }
     .botton-rechercher{
         border-radius:10px;
         height: 45px;
@@ -303,13 +307,13 @@ h3{
     .bar-filtres{
         flex-wrap: wrap;
     }
+
     .filtre-tag{
         margin-top: 15px;
     }
     .filtres-titre{
-        width: 400px;
+        width: 100%;
     }
-
     /*Les plus populaire*/
     .container-hebergement{
         flex-direction: column-reverse;

@@ -46,9 +46,15 @@
     width: 33%;
     margin-left: 30px;
 }
+.container-hebergement-child .bloc-text1,
+.container-hebergement-child .bloc-text2{
+    padding-right:6px;
+}
+
 .container-hebergement-child:first-child{
     margin-left: 0;
 }
+
 
 .style-image{
     width: 100%;
