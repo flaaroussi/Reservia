@@ -10,13 +10,6 @@
     padding:30px;
  }
 
- /*
- #heberg-marseille h3{
-    margin-top: 0;
- }
- */
- 
-
  /*style des stars pour eviter le retour a la ligne*/
 
  .hebergement-stars{
@@ -50,24 +43,20 @@
 .container-hebergement-child .bloc-text2{
     padding-right:6px;
 }
-
 .container-hebergement-child:first-child{
     margin-left: 0;
 }
-
 
 .style-image{
     width: 100%;
     height: 100px;
 }
-
 .hebergement-image img{
     border-top-left-radius: 12px;
     border-top-right-radius: 12px;
     object-fit: cover;
     border:3px solid #ffffff
 }
-
 .bloc-text1{
     font-weight:bold;
     padding-left: 15px;
@@ -76,14 +65,12 @@
 .bloc-text2{
     padding-top: 10px;
 }
-
 .bloc-text1,
 .bloc-text2,
 .hebergement-stars,
 .stars-port{
     padding-left: 15px;
 }
-
 .afficher{
     font-weight:bold ;
     margin-top: 30px;

@@ -13,8 +13,6 @@
     margin-bottom: 30px;
     font-size: 12px;
    }
-
-
 .populaire-bloc img{
     border-top-left-radius: 12px;
     border-bottom-left-radius: 12px;
@@ -22,7 +20,6 @@
     width: 35%;
     height: 120px;
 }
-
 .bloc-titre-notation{
     background:#ffffff;
     padding: 10px;
@@ -32,16 +29,12 @@
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-
 }
 .bloc-titre-notation .bloc-text1,
 .bloc-titre-notation .bloc-text2
 {
     padding-left: 0;
-
 }
-
-
 .image-eau img{
     border-top-left-radius: 12px;
     border-bottom-left-radius: 12px;
@@ -49,21 +42,17 @@
     object-fit: cover;
 }
 
-
 /*style Hotel bleu blanc*/
 .image-bleu-blanc img{
     border-top-left-radius: 12px;
     border-bottom-left-radius: 12px;
     border:3px solid #ffffff;
     object-fit: cover;
-
 }
 .container-populaire{
     display: flex;
     flex-direction: column;
 }
-
-
 #heberg-populaires{
     width: 30%;
     margin-left: 30px;
@@ -71,7 +60,6 @@
     background-color: #f2f2f2;
     padding: 30px;
 }
-
 .titre-charte{
     display: flex;
     flex-direction: row;
