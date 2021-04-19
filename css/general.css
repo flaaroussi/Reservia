@@ -129,7 +129,7 @@ h3{
 }
 .bar-recherches{
     display: flex;
-    width: 45%;
+    max-width: 400px;
     border-radius: 12px;
     border: 1px solid #ddd;
 }
@@ -148,7 +148,7 @@ h3{
     border:0;
     padding-left: 10px;
     font-weight: bold;
-    min-width:0;              /*permet de retrécir la taille d'un input jusqu'a zéro */ 
+    min-width:150px;              /*permet de retrécir la taille d'un input jusqu'a zéro */ 
 }
 ::placeholder{
     font-size: 1.2em;
@@ -213,6 +213,7 @@ h3{
     /** Barre filtre */
     .bar-filtres{
         flex-wrap: wrap;
+        min-width: 280px !important;
     }
     .filtre-tag{
         margin-top: 15px;
@@ -279,10 +280,16 @@ h3{
         padding-bottom: 0px;
         margin-bottom: 20px;
     }
+    .bar-filtres{
+        flex-wrap: wrap;
+    }
     
     /*Rechercher*/
     .bar-recherches{
-        width: 80% !important;
+        width: 100% !important;
+    }
+    .input-recherches{
+        min-width: 50px !important;
     }
     .botton-rechercher{
         border-radius:10px;
