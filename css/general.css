@@ -74,15 +74,16 @@ a{
 }
 .logo_nav nav ul li{
     float: left;
-    padding: 40px;        
+    padding: 40px; 
+    border-top: 2px solid #FFFFFF;       
 }
 
 .logo_nav nav ul li:last-child{
     padding-right: 0;
 }
 
-.actived{
-    border-top:2px solid #0065FC;
+li.actived{
+    border-top:2px solid #0065FC !important;
 }
 .actived a{
     color:#0065FC;
@@ -255,14 +256,18 @@ h3{
     .logo_nav{
         flex-direction: column;
     }
-    .actived{
-        border-bottom:2px solid #0065FC;
+    .logo_nav nav ul li{
+        border-top:0 !important;
+       
+    }
+    .actived{        
+        border-bottom:2px solid #0065FC !important;
         border-top: 0;
         width: 50%;
         text-align: center;
     }
-    .non-actived{
-        border-bottom:2px solid #f2f2f2 ;
+    .non-actived{    
+        border-bottom:2px solid #f2f2f2;    
         width: 50%;
         text-align: center;
     }
