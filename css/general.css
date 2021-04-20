@@ -257,8 +257,7 @@ h3{
         flex-direction: column;
     }
     .logo_nav nav ul li{
-        border-top:0 !important;
-       
+        border-top:0 !important;       
     }
     .actived{        
         border-bottom:2px solid #0065FC !important;
