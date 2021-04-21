@@ -6,6 +6,8 @@ Projet réalisé avec HTML et CSS.
 
 Compatibilité : Chrome et Firfox.
 
+Responsive design : Oui
+
 Validation HTML: 
 <a href="https://validator.w3.org/nu/?doc=https%3A%2F%2Fflaaroussi.github.io%2FFaizaLaaroussi_2_25032021%2F">
 Lien pour valider mon HTML.</a>
