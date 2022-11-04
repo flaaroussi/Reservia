@@ -1,5 +1,23 @@
 # Projet 2 - Reservia
 
+## PROBLEMATIQUE
+Concevoir un outil de planification des vacances pour trouver des hébergements et des activités dans la ville de leur choix
+
+## BESOIN
+
+L'outil doit permettre aux usagers :
+  - de trouver des hébergements et des activités dans la ville de leur choix. 
+  - Les hébergements peuvent être filtrés par thématique (budget, ambiance) et par spécificités (animaux autorisés ou non)
+
+## Livrable
+Intégration responsive HTML + CSS du nouveau design de leur site Internet one page, basé sur les principes du Material Design
+
+Compétences développées
+ Utiliser un système de gestion de versions pour le suivi du projet et son hébergement
+ Mettre en place son environnement Front-End
+ Intégrer du contenu conformément à une maquette
+ Implémenter une interface responsive
+
 Lien du porjet : https://flaaroussi.github.io/Reservia
 
 Projet réalisé avec HTML et CSS.
