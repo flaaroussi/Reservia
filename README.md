@@ -12,11 +12,11 @@ L'outil doit permettre aux usagers :
 ## Livrable
 Intégration responsive HTML + CSS du nouveau design de leur site Internet one page, basé sur les principes du Material Design
 
-Compétences développées
- Utiliser un système de gestion de versions pour le suivi du projet et son hébergement
- Mettre en place son environnement Front-End
- Intégrer du contenu conformément à une maquette
- Implémenter une interface responsive
+## Compétences développées
+ - Utiliser un système de gestion de versions pour le suivi du projet et son hébergement
+ - Mettre en place son environnement Front-End
+ - Intégrer du contenu conformément à une maquette
+ - Implémenter une interface responsive
 
 Lien du porjet : https://flaaroussi.github.io/Reservia
 
